@@ -10,7 +10,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
 
-@Entity(name="tb_teacher")
+@Entity
 public class Teacher {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
